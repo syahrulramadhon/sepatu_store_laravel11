@@ -18,7 +18,7 @@ class OrderService
     protected $promoCodeRepository;
 
     public function __construct(PromoCodeRepositoryInterface $promoCodeRepository,
-    CategopryRepositoryInterface $categoryRepository,
+    CategoryRepositoryInterface $categoryRepository,
     OrderRepositoryInterface $orderRepository,
     ShoeRepositoryInterface $shoeRepository)
     {
